@@ -1,0 +1,41 @@
+<html>
+    <head>
+</head>
+<body>
+<script>
+        //array methods
+        //using toString()
+        var fruits=["Banana","Orangr","Apple","Mango"];
+        document.write(fruits.toString());
+        //using join()
+        document.write(fruits.join("+"));
+        //using pop()
+        document.write(fruits.pop());  //Removes the last element from fruits
+        //using push()
+        document.write(fruits.push("kiwi"));  //add new element to fruits
+        //using shift()
+        document.write(fruits.shift());   //removes the first element from fruits
+        //using unshift()
+     //  document.write(fruits.unshift(lemon));   //adds new element to fruits
+
+        //string methods
+        var str="Please locate where 'locate' occurs!";
+       var pos=str.indexOf("locate"); //using indexOf()
+	   document.write(pos);
+        var pos1=str.search("locate");   //using search()
+		document.write(pos1);
+        var str1="Apple,Banana,kiwi";
+        var res=str1.slice(7,13);   //using slice()
+		document.write(res);
+        var res1=str1.substr(7,6);   //using substr()
+		document.write(res1);
+        var n=str.replace("Javascript","Letsupgrade");   //using replace()
+		document.write(n);
+        var text="hello";
+        var text1=text.toUpperCase();  //using toUpperCase()
+		document.write(text1);
+</script>
+</body>
+</html>
+
+
